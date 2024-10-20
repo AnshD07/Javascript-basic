@@ -1,8 +1,8 @@
-const user={
-    username:"Hitesh",
-    price : 999,
+const user = {
+    username: "Hitesh",
+    price: 999,
 
-    welcomemessage:function(){
+    welcomemessage: function () {
         console.log(`${this.username} , welcome to website `);  //! this referes current context 
 
         console.log(this);
@@ -49,6 +49,6 @@ const any = () => {
 // const addTwo =(n1,n2) => (n1+n2) //* parenthesis should be there
 
 //! returning Object 
-const addTwo = (n1,n2) => ({username:"Ansh"})
+const addTwo = (n1, n2) => ({ username: "Ansh" ,price:(n1+n2) })
 
-console.log(addTwo(2,3));
+console.log(addTwo(1, 2));

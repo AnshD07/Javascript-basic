@@ -1,5 +1,5 @@
 // const tinderUser = new Object() //* singleton  object
-const tinderUser  = {}  //* non singleton object
+const tinderUser = {}  //* non singleton object
 
 
 tinderUser.id = "234sdf"
@@ -8,11 +8,11 @@ tinderUser.isLoggedIn = false
 
 
 const regularUser = {
-    email : "another@gmail.com",
-    fullname :{
-        userfullname:{
-            firstname : "Ansh",
-            lastname : "dholakiya"
+    email: "another@gmail.com",
+    fullname: {
+        userfullname: {
+            firstname: "Ansh",
+            lastname: "dholakiya"
         }
     }
 }
@@ -21,31 +21,31 @@ const regularUser = {
 
 //! merging two obj
 
-const obj1 ={1:"a",2:"b"}
-const obj2 ={4:"a",4:"b"}
+const obj1 = { 1: "a", 2: "b" }
+const obj2 = { 4: "a", 4: "b" }
 
 // const obj3 = {obj1,obj2} //! wrong way 
 
 // const obj3 = Object.assign({},obj1,obj2) //* {} object is target object and other one is source 
 // console.log(obj3);
 
-const obj3 = {...obj1,...obj2}
+const obj3 = { ...obj1, ...obj2 }
 console.log(obj3)
 
 
 users = [
     {
-        id:1,
-        email:"h@gmail.com"
-    
+        id: 1,
+        email: "h@gmail.com"
+
     },
     {
-        id:2,
-        email:"h@gmail.com"
+        id: 2,
+        email: "h@gmail.com"
     },
     {
-        id:3,
-        email:"h@gmail.com"
+        id: 3,
+        email: "h@gmail.com"
     }
 ]
 

@@ -32,6 +32,7 @@ function calculatecartprice(val1,val2,...num1){ //! Rest operator in function
 console.log(calculatecartprice(200,400,150,1,2,4,5,5));
 
 
+
 const user={
     username : "Ansh",
     price:1000000

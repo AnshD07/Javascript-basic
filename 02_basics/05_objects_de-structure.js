@@ -10,7 +10,10 @@ const course ={
 //! new syntax
 const {courseInstructor : insturctor} = course //! extracting values from object 
 
+//* here courseInstructor extrcted as a name instructor
+
 console.log(insturctor);
+
 
 
 //* this is API our workload give to another is called API
