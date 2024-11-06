@@ -4,6 +4,9 @@ let a = 3
 var b = 5
 const c = 5
 
+
+// hey this is for example git
+
 let string = "ansh dholakiya "
 console.log(a)
 console.log(c)
